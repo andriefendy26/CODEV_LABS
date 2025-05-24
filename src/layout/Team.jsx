@@ -91,7 +91,10 @@ export default function Team() {
             Tim Expert Berpengalaman
           </div>
 
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+          <h2
+            data-aos="fade-left"
+            className="text-4xl md:text-5xl font-bold mb-6 leading-tight"
+          >
             <span className="bg-gradient-to-r from-black via-gray-800 to-black bg-clip-text text-transparent">
               Tim Pengembang
             </span>
@@ -101,7 +104,7 @@ export default function Team() {
             </span>
           </h2>
 
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p data-aos="fade-up  " className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Tim kami terdiri dari pengembang yang ahli di bidang masing-masing:
             frontend, backend, mobile, IoT, dan data. Siap mewujudkan solusi
             teknologi impian Anda.
@@ -109,14 +112,14 @@ export default function Team() {
         </div>
 
         {/* Team Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+        <div data-aos="fade-left" className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
           {teamMembers.map((member, index) => (
             <CardTim key={index} member={member} index={index} />
           ))}
         </div>
 
         {/* Bottom Stats */}
-        <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+        <div data-aos="fade-left" className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div className="p-6 bg-white/50 backdrop-blur-sm border border-gray-200/50 rounded-2xl">
             <div className="text-3xl font-bold text-gray-800 mb-2">2+</div>
             <div className="text-gray-600">Years Combined Experience</div>
@@ -150,9 +153,10 @@ function CardTim({ member, index }) {
       >
         {/* Avatar placeholder */}
         {member.avatar ? (
-          <img src={member.avatar} className="w-20 h-20 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center text-2xl font-bold mb-4 group-hover:scale-110 transition-transform duration-300">
-
-          </img>
+          <img
+            src={member.avatar}
+            className="w-20 h-20 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center text-2xl font-bold mb-4 group-hover:scale-110 transition-transform duration-300"
+          ></img>
         ) : (
           <div className="w-20 h-20 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center text-2xl font-bold mb-4 group-hover:scale-110 transition-transform duration-300">
             {member.name

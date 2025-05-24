@@ -21,13 +21,13 @@ export default function CTA() {
       {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         {/* Badge */}
-        <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-sm text-white/80 mb-6">
+        <div data-aos="fade-down" className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-sm text-white/80 mb-6">
           <div className="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></div>
           Siap Membantu Anda 24/7
         </div>
 
         {/* Main Heading */}
-        <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+        <h2 data-aos="fade-right" className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
           <span className="bg-gradient-to-r from-white via-gray-200 to-white bg-clip-text text-transparent">
             Siap Bangun Solusi Digital 
           </span>
@@ -38,13 +38,13 @@ export default function CTA() {
         </h2>
 
         {/* Description */}
-        <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
+        <p data-aos="fade-left" className="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
           Hubungi kami sekarang untuk konsultasi gratis dan dapatkan penawaran terbaik 
           untuk solusi digital yang akan mengubah bisnis Anda.
         </p>
 
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+        <div data-aos="fade-right" className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
           <a 
             href="https://wa.me/08XXXXXXXXXX" 
             className="group relative px-8 py-4 bg-gradient-to-r from-green-500 to-green-600 text-white font-semibold rounded-2xl hover:from-green-600 hover:to-green-700 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25 flex items-center gap-3"
@@ -72,7 +72,7 @@ export default function CTA() {
         </div>
 
         {/* Contact Info */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+        <div data-aos="zoom-in  " className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
           <div className="group p-4 bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl hover:bg-white/10 hover:border-white/20 transition-all duration-300">
             <div className="text-2xl mb-2">⚡</div>
             <div className="text-white font-semibold mb-1">Respon Cepat</div>

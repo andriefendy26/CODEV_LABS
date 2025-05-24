@@ -1,6 +1,8 @@
+import Aos from "aos";
 import React from "react";
 
 export default function Hero() {
+
   return (
     <section
       id="home"
@@ -40,14 +42,23 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 text-white">
-        <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-gray-300 to-white bg-clip-text text-transparent animate-pulse">
+        <h1
+          data-aos="fade-up"
+          className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-gray-300 to-white bg-clip-text text-transparent animate-pulse"
+        >
           Solusi Digital untuk Bisnis Anda
         </h1>
-        <p className="text-lg md:text-xl mb-8 max-w-4xl text-center  text-gray-300 leading-relaxed">
+        <p
+          data-aos="fade-down"
+          className="text-lg md:text-xl mb-8 max-w-4xl text-center  text-gray-300 leading-relaxed"
+        >
           Kami adalah pengembang Website, Aplikasi Android, IoT, dan Analis Data
           siap membantu Anda membangun solusi digital yang optimal.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div
+          data-aos="zoom-in"
+          className="flex flex-col sm:flex-row gap-4 justify-center"
+        >
           <a
             href="#contact"
             className="group px-8 py-4 bg-gradient-to-r from-white to-gray-200 text-black rounded-2xl hover:from-gray-100 hover:to-white transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-white/25 font-semibold"
