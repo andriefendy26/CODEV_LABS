@@ -46,7 +46,7 @@ export default function CTA() {
         {/* CTA Buttons */}
         <div data-aos="fade-right" className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
           <a 
-            href="https://wa.me/08XXXXXXXXXX" 
+            href="https://wa.me/6282255187877" 
             className="group relative px-8 py-4 bg-gradient-to-r from-green-500 to-green-600 text-white font-semibold rounded-2xl hover:from-green-600 hover:to-green-700 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25 flex items-center gap-3"
           >
             {/* WhatsApp Icon */}
@@ -60,7 +60,7 @@ export default function CTA() {
           </a>
 
           <a 
-            href="mailto:contact@codevlabs.com" 
+            href="andri.nnkn@gmail.com" 
             className="group px-8 py-4 border-2 border-white/30 text-white font-semibold rounded-2xl hover:bg-white/5 hover:border-white/50 transition-all duration-300 transform hover:scale-105 backdrop-blur-sm flex items-center gap-3"
           >
             {/* Email Icon */}
