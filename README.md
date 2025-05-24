@@ -61,5 +61,6 @@ Jika Anda tertarik untuk bekerja sama atau ingin membuat solusi digital, silakan
 
 - 📧 Email: [andri.nnkn@gmail.com]  
 - 💬 WhatsApp: [081388886564-081211422949-082255187877]  
+- 📱 Instagram: [@andriefendyy](https://instagram.com/
+andriefendyy)
 <!-- - 🌐 Website: [www.namapersonal.com](https://www.namapersonal.com)   -->
-- 📱 Instagram: [@andriefendyy](https://instagram.com/andriefendyy)
