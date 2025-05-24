@@ -50,8 +50,7 @@ Analisis data menggunakan Python, Excel, dan tools BI (Business Intelligence) un
 - **Deploy & Hosting:** Vercel, Netlify, Firebase, cPanel
 
 ## 📷 Cuplikan Tampilan
-> (![image](https://github.com/user-attachments/assets/108c59bd-74d5-495a-8a2e-7eac0a9c9074)
-.png)
+> ![image](https://github.com/user-attachments/assets/108c59bd-74d5-495a-8a2e-7eac0a9c9074)
 > ![image](https://github.com/user-attachments/assets/a5f2e752-ebe6-4ebe-bf6e-e7b50b09b41e)
 > ![image](https://github.com/user-attachments/assets/5284ca68-1c49-4b4a-8ac6-b25af2b10053)
 
