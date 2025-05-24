@@ -4,29 +4,84 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-center items-center text-center px-4 bg-gradient-to-br from-blue-50 to-white"
+      className="min-h-screen flex flex-col justify-center items-center text-center px-4 relative overflow-hidden"
     >
-      <h1 className="text-4xl md:text-5xl font-bold mb-4">
-        Solusi Digital untuk Bisnis Anda
-      </h1>
-      <p className="text-lg md:text-xl mb-6 max-w-xl">
-        Kami adalah pengembang Website, Aplikasi Android, IoT, dan Analis Data
-        siap membantu Anda membangun solusi digital yang optimal.
-      </p>
-      <div className="flex gap-4">
-        <a
-          href="#contact"
-          className="px-6 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition"
-        >
-          Konsultasi Gratis
-        </a>
-        <a
-          href="#portfolio"
-          className="px-6 py-3 border border-blue-600 text-blue-600 rounded-xl hover:bg-blue-50 transition"
-        >
-          Lihat Portofolio
-        </a>
+      {/* Animated Background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-gray-800">
+        {/* Floating geometric shapes */}
+        <div className="absolute top-20 left-10 w-20 h-20 bg-white/10 rounded-full animate-pulse"></div>
+        <div className="absolute top-40 right-20 w-16 h-16 bg-white/15 rounded-lg rotate-45 animate-bounce"></div>
+        <div className="absolute bottom-32 left-1/4 w-12 h-12 bg-white/20 rounded-full animate-ping"></div>
+        <div className="absolute bottom-20 right-1/3 w-8 h-8 bg-white/10 rounded-full animate-pulse"></div>
+
+        {/* Grid overlay */}
+        <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[size:50px_50px]"></div>
+
+        {/* Glowing orbs */}
+        <div className="absolute top-1/4 left-1/3 w-64 h-64 bg-white/5 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-1/4 right-1/3 w-80 h-80 bg-white/8 rounded-full blur-3xl animate-pulse delay-1000"></div>
+
+        {/* Animated particles */}
+        <div className="absolute inset-0">
+          {[...Array(20)].map((_, i) => (
+            <div
+              key={i}
+              className="absolute w-1 h-1 bg-white/30 rounded-full animate-twinkle"
+              style={{
+                left: `${Math.random() * 100}%`,
+                top: `${Math.random() * 100}%`,
+                animationDelay: `${Math.random() * 3}s`,
+                animationDuration: `${2 + Math.random() * 2}s`,
+              }}
+            ></div>
+          ))}
+        </div>
       </div>
+
+      {/* Content */}
+      <div className="relative z-10 text-white">
+        <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-gray-300 to-white bg-clip-text text-transparent animate-pulse">
+          Solusi Digital untuk Bisnis Anda
+        </h1>
+        <p className="text-lg md:text-xl mb-8 max-w-4xl text-center  text-gray-300 leading-relaxed">
+          Kami adalah pengembang Website, Aplikasi Android, IoT, dan Analis Data
+          siap membantu Anda membangun solusi digital yang optimal.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="#contact"
+            className="group px-8 py-4 bg-gradient-to-r from-white to-gray-200 text-black rounded-2xl hover:from-gray-100 hover:to-white transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-white/25 font-semibold"
+          >
+            <span className="group-hover:animate-pulse">Konsultasi Gratis</span>
+          </a>
+          <a
+            href="#portfolio"
+            className="group px-8 py-4 border-2 border-white/50 text-white rounded-2xl hover:bg-white/10 hover:border-white transition-all duration-300 transform hover:scale-105 backdrop-blur-sm font-semibold"
+          >
+            <span className="group-hover:animate-pulse">Lihat Portofolio</span>
+          </a>
+        </div>
+      </div>
+
+      {/* Bottom gradient fade */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black to-transparent"></div>
+
+      <style jsx>{`
+        @keyframes twinkle {
+          0%,
+          100% {
+            opacity: 0;
+            transform: scale(0.5);
+          }
+          50% {
+            opacity: 1;
+            transform: scale(1);
+          }
+        }
+        .animate-twinkle {
+          animation: twinkle 2s ease-in-out infinite;
+        }
+      `}</style>
     </section>
   );
 }
