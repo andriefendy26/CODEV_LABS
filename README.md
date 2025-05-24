@@ -1,12 +1,65 @@
-# React + Vite
+# 🌐 Portofolio & Jasa Pengembangan Teknologi Digital
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Selamat datang di website portofolio saya!  
+Saya adalah seorang **Developer & Konsultan Teknologi Digital** yang menyediakan layanan pembuatan solusi digital berbasis **Website**, **Aplikasi Android**, **IoT (Internet of Things)**, dan **Analisis Data**.
 
-Currently, two official plugins are available:
+## 🚀 Tentang Proyek Ini
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Website ini dibuat untuk:
+- 🎯 Menampilkan portofolio proyek digital yang pernah saya kerjakan.
+- 🛠️ Menawarkan layanan profesional di bidang pengembangan teknologi digital.
+- 📞 Menjadi media untuk klien melakukan konsultasi dan pemesanan jasa.
 
-## Expanding the ESLint configuration
+## 💼 Layanan yang Ditawarkan
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Berikut adalah layanan utama yang saya tawarkan:
+
+### 🔧 Website Development
+Pembuatan website statis & dinamis, company profile, toko online, hingga dashboard admin.
+
+### 📱 Aplikasi Android
+Pembuatan aplikasi Android berbasis Java, Kotlin, maupun Flutter — baik native maupun hybrid.
+
+### 🌐 IoT (Internet of Things)
+Pengembangan sistem berbasis IoT untuk pemantauan sensor, kendali perangkat, dan integrasi cloud.
+
+### 📊 Data Analysis
+Analisis data menggunakan Python, Excel, dan tools BI (Business Intelligence) untuk pengambilan keputusan berbasis data.
+
+## ✨ Fitur Website
+
+- **Landing Page Profesional**  
+  Desain modern, ringan, dan responsif di berbagai perangkat.
+
+- **Galeri Proyek**  
+  Showcase hasil karya yang disusun berdasarkan kategori layanan.
+
+- **Form Kontak & WhatsApp Integration**  
+  Memudahkan pengunjung untuk berkonsultasi langsung.
+
+- **Blog & Artikel (Opsional)**  
+  Berisi tulisan seputar teknologi, tutorial, dan dokumentasi proyek.
+
+## 🛠️ Teknologi yang Digunakan
+
+- **Frontend:** HTML, CSS, JavaScript, Tailwind / Bootstrap, React / Vue
+- **Backend:** Node.js, Express, PHP, Laravel, Firebase
+- **Android:**  React Native, Flutter
+- **IoT:** ESP32, Arduino, MQTT, Firebase, Node-RED
+- **Data:** Python (Pandas, Matplotlib), Excel, Google Data Studio, Power BI
+- **Deploy & Hosting:** Vercel, Netlify, Firebase, cPanel
+
+## 📷 Cuplikan Tampilan
+
+> Tambahkan screenshot antarmuka proyek atau portofolio di sini.  
+> Contoh:  
+> ![Preview](preview.png)
+
+## 📬 Hubungi Saya
+
+Jika Anda tertarik untuk bekerja sama atau ingin membuat solusi digital, silakan hubungi:
+
+- 📧 Email: [andri.nnkn@gmail.com]  
+- 💬 WhatsApp: [081388886564-081211422949-082255187877]  
+<!-- - 🌐 Website: [www.namapersonal.com](https://www.namapersonal.com)   -->
+- 📱 Instagram: [@andriefendyy](https://instagram.com/andriefendyy)
