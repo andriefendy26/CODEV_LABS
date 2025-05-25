@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Aos from "aos";
+import C2UKALTARA from "../assets/portofolio/c2ukaltara.png";
 import "aos/dist/aos.css";
 
 export default function Portfolio() {
@@ -29,7 +30,13 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "Website Sekolah",
+      title: "Website C2UKALTARA",
+      description:
+        "Website c2ukaltara.id memiliki berbagai fitur yang mendukung pengelolaan data dan aktivitas pengguna, Fitur manajemen berita, Manajemen Pengguna, Fitur pengelolaan data sampah , dan Pengisian Logbook Berbasis Face Recognition",
+      image: C2UKALTARA,
+    },
+    {
+      title: "Website Ecommerce",
       description:
         "Web Prototype Ecommerce ini Menerapkan beberapa fungsi seperti Menggunakan API untuk menampilkan halaman detail produk yang dinamis dengan informasi terperinci dan gambar produk",
       image:
@@ -43,7 +50,8 @@ export default function Portfolio() {
     {
       title: "Dashboard IoT",
       description: "Visualisasi data sensor IoT secara real-time.",
-      image: "https://portofolio-six-snowy.vercel.app/assets/Monitoring-Ll_DeqKg.jpg",
+      image:
+        "https://portofolio-six-snowy.vercel.app/assets/Monitoring-Ll_DeqKg.jpg",
     },
     {
       title: "Company Profile",
