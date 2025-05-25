@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import Aos from "aos";
 import C2UKALTARA from "../assets/portofolio/c2ukaltara.png";
 import CASHIERMATE from "../assets/portofolio/cashiermate.png";
+import RDASSISTEM from "../assets/portofolio/rdas_system.png";
 import "aos/dist/aos.css";
 
 export default function Portfolio() {
@@ -44,6 +45,11 @@ export default function Portfolio() {
         "https://portofolio-six-snowy.vercel.app/assets/Ecommerce-h95v5BwB.png",
     },
     {
+      title: "Sistem Perekapan dan Analisis Data Radiosonde Untuk BMKG Kota Tarakan",
+      description: "Sistem perekapan otomatis dan analisis klasifikasi data radiosonde dengan menggunakan metode random forest untuk stasiun meteorologi BMKG Kota Tarakan.",
+      image: RDASSISTEM,
+    },
+        {
       title: "Aplikasi Kasir Cross Platrofm (Android & Website)",
       description: "Aplikasi kasir cross platform untuk UMKM berbasis Android & Website.",
       image: CASHIERMATE,
