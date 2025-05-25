@@ -48,7 +48,7 @@ export default function Layanan() {
         </div>
 
         {/* Services Grid */}
-        <div data-aos="fade-up" className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto">
+        <div data-aos="fade-up" className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
           <ServiceCard
           
             title="Website Development"
@@ -69,6 +69,17 @@ export default function Layanan() {
             color="from-green-500 to-emerald-500"
           />
           <ServiceCard
+            title="Aplikasi Desktop"
+            icon="🖱️"
+            desc="Pengembangan aplikasi atau program berbasis desktop yang interaktif dan efisien."
+            features={[
+              "Cross-Platform",
+              "UI/UX Friendly",
+              "Integrasi Sistem Lokal",
+            ]}
+            color="from-yellow-500 to-amber-500"
+          />
+          <ServiceCard
             title="Proyek IoT"
             icon="🔌"
             desc="Sistem monitoring, kontrol perangkat, dan otomasi berbasis sensor dan mikrokontroler."
@@ -79,7 +90,7 @@ export default function Layanan() {
             ]}
             color="from-purple-500 to-violet-500"
           />
-          <ServiceCard
+          <ServiceCard  
             title="Analisis Data"
             icon="📊"
             desc="Visualisasi dan analisis data untuk mendukung pengambilan keputusan bisnis yang tepat."

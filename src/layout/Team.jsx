@@ -37,12 +37,12 @@ export default function Team() {
         { nama: "Python", icon: "🐍", color: "from-green-400 to-green-600" },
         { nama: "React", icon: "⚛", color: "from-blue-400 to-blue-600" },
         { nama: "MySQL", icon: "🐬", color: "from-blue-600 to-blue-800" },
-        { nama: "PyQT5", icon: "Qt", color: "from-green-500 to-green-700" },
+        { nama: "PyQt5", icon: "Qt", color: "from-green-500 to-green-700" },
         { nama: "Arduino", icon: "🔧", color: "from-teal-400 to-teal-600" },
         { nama: "Streamlit", icon: "📊", color: "from-red-400 to-red-600" },
       ],
       role: "Data Specialist & Desktop Developer",
-      avatar: "",
+      avatar: "https://avatars.githubusercontent.com/u/203731150?s=400&u=727cd97df0241494c237239cbe974bf7b0230f50&v=4",
       linkedin: "#",
       github: "#",
       description:
@@ -55,7 +55,7 @@ export default function Team() {
       skills: [
         { nama: "Python", icon: "🐍", color: "from-green-400 to-green-600" },
         { nama: "MySQL", icon: "🐬", color: "from-blue-600 to-blue-800" },
-        { nama: "PyQT5", icon: "Qt", color: "from-green-500 to-green-700" },
+        { nama: "PyQt5", icon: "Qt", color: "from-green-500 to-green-700" },
         { nama: "Arduino", icon: "🔧", color: "from-teal-400 to-teal-600" },
         { nama: "Streamlit", icon: "📊", color: "from-red-400 to-red-600" },
       ],
