@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import Aos from "aos";
 import C2UKALTARA from "../assets/portofolio/c2ukaltara.png";
+import CASHIERMATE from "../assets/portofolio/cashiermate.png";
 import "aos/dist/aos.css";
 
 export default function Portfolio() {
@@ -43,9 +44,9 @@ export default function Portfolio() {
         "https://portofolio-six-snowy.vercel.app/assets/Ecommerce-h95v5BwB.png",
     },
     {
-      title: "Aplikasi Kasir",
-      description: "Aplikasi kasir modern untuk UMKM berbasis Android.",
-      image: "/portfolio/pos.jpg",
+      title: "Aplikasi Kasir Cross Platrofm (Android & Website)",
+      description: "Aplikasi kasir cross platform untuk UMKM berbasis Android & Website.",
+      image: CASHIERMATE,
     },
     {
       title: "Dashboard IoT",
