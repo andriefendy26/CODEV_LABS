@@ -1,7 +1,7 @@
 # 🌐 Portofolio & Jasa Pengembangan Teknologi Digital
 
-Selamat datang di website portofolio saya!  
-Saya adalah seorang **Developer & Konsultan Teknologi Digital** yang menyediakan layanan pembuatan solusi digital berbasis **Website**, **Aplikasi Android**, **IoT (Internet of Things)**, dan **Analisis Data**.
+Selamat datang di website portofolio kami!  
+Kami adalah seorang **Developer & Konsultan Teknologi Digital** yang menyediakan layanan pembuatan solusi digital berbasis **Website**, **Aplikasi Android**, **IoT (Internet of Things)**, dan **Analisis Data**.
 
 ## 🚀 Tentang Proyek Ini
 
