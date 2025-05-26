@@ -1,0 +1,647 @@
+{
+  "project": [
+    {
+      "id": 1,
+      "title": "Website C2UKALTARA",
+      "subtitle": "Platform Pengelolaan Data dan Aktivitas Pengguna",
+      "description": "Website c2ukaltara.id memiliki berbagai fitur yang mendukung pengelolaan data dan aktivitas pengguna, Fitur manajemen berita, Manajemen Pengguna, Fitur pengelolaan data sampah, dan Pengisian Logbook Berbasis Face Recognition",
+      "longDescription": "Proyek ini merupakan website komprehensif untuk C2UKALTARA yang menggabungkan teknologi modern dengan kebutuhan bisnis yang kompleks. Website ini dirancang dengan arsitektur yang scalable dan user-friendly interface untuk mendukung berbagai aktivitas operasional organisasi.",
+      "category": "Mobile & Web",
+      "status": "Deployed",
+      "gradient": "from-blue-500 to-cyan-500",
+      "images": [
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop"
+      ],
+      "tech": [
+        "React",
+        "Node.js",
+        "Face Recognition",
+        "MySQL",
+        "Express.js",
+        "JWT Authentication"
+      ],
+      "features": [
+        "Manajemen Berita Dinamis",
+        "Sistem Manajemen Pengguna",
+        "Pengelolaan Data Sampah",
+        "Face Recognition untuk Logbook",
+        "Dashboard Analytics",
+        "Real-time Notifications"
+      ],
+      "stats": {
+        "users": "500+",
+        "uptime": "99.9%",
+        "performance": "95/100",
+        "satisfaction": "4.8/5"
+      },
+      "team": [
+        {
+          "name": "John Doe",
+          "role": "Frontend Developer",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face"
+        },
+        {
+          "name": "Jane Smith",
+          "role": "Backend Developer",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=60&h=60&fit=crop&crop=face"
+        },
+        {
+          "name": "Mike Johnson",
+          "role": "UI/UX Designer",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face"
+        }
+      ],
+      "timeline": [
+        {
+          "phase": "Planning & Research",
+          "duration": "2 weeks",
+          "status": "completed"
+        },
+        {
+          "phase": "Design & Prototyping",
+          "duration": "3 weeks",
+          "status": "completed"
+        },
+        {
+          "phase": "Development",
+          "duration": "8 weeks",
+          "status": "completed"
+        },
+        {
+          "phase": "Testing & Deployment",
+          "duration": "2 weeks",
+          "status": "completed"
+        },
+        { "phase": "Maintenance", "duration": "Ongoing", "status": "active" }
+      ],
+      "links": {
+        "live": "https://c2ukaltara.id",
+        "github": "https://github.com/example/c2ukaltara"
+      },
+      "launchDate": "2024-01-15",
+      "client": "C2UKALTARA Organization"
+    },
+    {
+      "id": 2,
+      "title": "Website Ecommerce",
+      "subtitle": "Prototype E-commerce dengan API Integration",
+      "description": "Web Prototype Ecommerce ini Menerapkan beberapa fungsi seperti Menggunakan API untuk menampilkan halaman detail produk yang dinamis dengan informasi terperinci dan gambar produk",
+      "longDescription": "Platform e-commerce modern yang dikembangkan sebagai prototype untuk mendemonstrasikan kemampuan integrasi API dan manajemen konten dinamis. Website ini menampilkan katalog produk yang responsif dengan detail produk yang comprehensive.",
+      "category": "Mobile & Web",
+      "status": "Prototype",
+      "gradient": "from-purple-500 to-pink-500",
+      "images": [
+        "https://portofolio-six-snowy.vercel.app/assets/Ecommerce-h95v5BwB.png",
+        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+      ],
+      "tech": [
+        "React",
+        "API Integration",
+        "Dynamic Content",
+        "CSS3",
+        "JavaScript",
+        "REST API"
+      ],
+      "features": [
+        "Dynamic Product Display",
+        "API-driven Content",
+        "Responsive Design",
+        "Product Detail Pages",
+        "Shopping Cart Interface",
+        "Search Functionality"
+      ],
+      "stats": {
+        "users": "Demo",
+        "uptime": "N/A",
+        "performance": "88/100",
+        "satisfaction": "4.2/5"
+      },
+      "team": [
+        {
+          "name": "Lisa Pratiwi",
+          "role": "Frontend Developer",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=60&h=60&fit=crop&crop=face"
+        },
+        {
+          "name": "Andi Wijaya",
+          "role": "API Developer",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face"
+        }
+      ],
+      "timeline": [
+        {
+          "phase": "Planning & Research",
+          "duration": "1 week",
+          "status": "completed"
+        },
+        {
+          "phase": "Design & Prototyping",
+          "duration": "2 weeks",
+          "status": "completed"
+        },
+        {
+          "phase": "Development",
+          "duration": "4 weeks",
+          "status": "completed"
+        },
+        { "phase": "Testing", "duration": "1 week", "status": "completed" }
+      ],
+      "links": {
+        "live": "https://ecommerce-prototype.demo",
+        "github": "https://github.com/example/ecommerce-prototype"
+      },
+      "launchDate": "2023-11-20",
+      "client": "Internal Project"
+    },
+    {
+      "id": 3,
+      "title": "Aplikasi Kasir Cross Platform (Android & Website)",
+      "subtitle": "Solusi Kasir UMKM Terintegrasi",
+      "description": "Aplikasi kasir cross platform untuk UMKM berbasis Android & Website.",
+      "longDescription": "Aplikasi kasir yang dirancang khusus untuk UMKM dengan fitur cross-platform yang memungkinkan penggunaan baik di Android maupun web browser. Sistem ini membantu pemilik usaha kecil menengah dalam mengelola transaksi dan inventory dengan mudah.",
+      "category": "Mobile & Web",
+      "status": "Active",
+      "gradient": "from-orange-500 to-red-500",
+      "images": [
+        "https://images.unsplash.com/photo-1556741533-6e6a62bd8b49?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+      ],
+      "tech": [
+        "Laravel",
+        "React",
+        "Cross Platform",
+        "MySQL",
+        "Android SDK",
+        "PWA"
+      ],
+      "features": [
+        "Cross Platform Compatibility",
+        "Inventory Management",
+        "Sales Reporting",
+        "Customer Management",
+        "Receipt Printing",
+        "Multi-user Support"
+      ],
+      "stats": {
+        "users": "150+",
+        "uptime": "98.5%",
+        "performance": "92/100",
+        "satisfaction": "4.6/5"
+      },
+      "team": [
+        {
+          "name": "Dedi Kurniawan",
+          "role": "Full Stack Developer",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face"
+        },
+        {
+          "name": "Maya Sari",
+          "role": "Mobile Developer",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=60&h=60&fit=crop&crop=face"
+        },
+        {
+          "name": "Roni Prakoso",
+          "role": "Backend Developer",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face"
+        }
+      ],
+      "timeline": [
+        {
+          "phase": "Planning & Research",
+          "duration": "2 weeks",
+          "status": "completed"
+        },
+        {
+          "phase": "Design & Prototyping",
+          "duration": "3 weeks",
+          "status": "completed"
+        },
+        {
+          "phase": "Development",
+          "duration": "10 weeks",
+          "status": "completed"
+        },
+        {
+          "phase": "Testing & Deployment",
+          "duration": "3 weeks",
+          "status": "completed"
+        },
+        {
+          "phase": "Maintenance & Updates",
+          "duration": "Ongoing",
+          "status": "active"
+        }
+      ],
+      "links": {
+        "live": "https://cashiermate.app",
+        "github": "https://github.com/example/cashiermate"
+      },
+      "launchDate": "2023-09-10",
+      "client": "UMKM Community"
+    },
+    {
+      "id": 4,
+      "title": "Web Perhitungan BMI menggunakan Logika Fuzzy",
+      "subtitle": "Kalkulator BMI Berbasis Fuzzy Logic",
+      "description": "Web ini menghitung BMI dengan akurat karena sudah memiliki logika fuzzy sebagai algoritma untuk menghitung BMI secara akurat.",
+      "longDescription": "Aplikasi web inovatif yang menggunakan logika fuzzy untuk perhitungan Body Mass Index (BMI) yang lebih akurat dan personal. Sistem ini memberikan rekomendasi kesehatan yang lebih tepat berdasarkan analisis fuzzy yang mempertimbangkan berbagai faktor.",
+      "category": "Mobile & Web",
+      "status": "Active",
+      "gradient": "from-orange-500 to-red-500",
+      "images": [
+        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&h=600&fit=crop"
+      ],
+      "tech": [
+        "React",
+        "Fuzzy Logic",
+        "JavaScript",
+        "Chart.js",
+        "CSS3",
+        "Mathematical Algorithms"
+      ],
+      "features": [
+        "Fuzzy Logic Calculation",
+        "Personalized Health Recommendations",
+        "BMI History Tracking",
+        "Visual Data Representation",
+        "Health Tips Integration",
+        "Responsive Interface"
+      ],
+      "stats": {
+        "users": "2000+",
+        "uptime": "99.2%",
+        "performance": "94/100",
+        "satisfaction": "4.7/5"
+      },
+      "team": [
+        {
+          "name": "Dr. Fitri Handayani",
+          "role": "Algorithm Specialist",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=60&h=60&fit=crop&crop=face"
+        },
+        {
+          "name": "Bayu Wirawan",
+          "role": "Frontend Developer",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face"
+        }
+      ],
+      "timeline": [
+        {
+          "phase": "Research & Algorithm Design",
+          "duration": "3 weeks",
+          "status": "completed"
+        },
+        {
+          "phase": "Development",
+          "duration": "5 weeks",
+          "status": "completed"
+        },
+        {
+          "phase": "Testing & Validation",
+          "duration": "2 weeks",
+          "status": "completed"
+        },
+        { "phase": "Deployment", "duration": "1 week", "status": "completed" },
+        { "phase": "Maintenance", "duration": "Ongoing", "status": "active" }
+      ],
+      "links": {
+        "live": "https://bmi-fuzzy.health",
+        "github": "https://github.com/example/bmi-fuzzy"
+      },
+      "launchDate": "2023-08-05",
+      "client": "Health Tech Initiative"
+    },
+    {
+      "id": 5,
+      "title": "Sistem Perekapan dan Analisis Data Radiosonde Untuk BMKG Kota Tarakan",
+      "subtitle": "Sistem Analisis Meteorologi Berbasis Machine Learning",
+      "description": "Sistem perekapan otomatis dan analisis klasifikasi data radiosonde dengan menggunakan metode random forest untuk stasiun meteorologi BMKG Kota Tarakan.",
+      "longDescription": "Sistem komprehensif untuk perekapan dan analisis data radiosonde yang digunakan oleh BMKG Kota Tarakan. Sistem ini menggunakan algoritma Random Forest untuk klasifikasi dan prediksi data meteorologi, membantu dalam peramalan cuaca yang lebih akurat.",
+      "category": "Desktop App & Analysis Data",
+      "status": "Production",
+      "gradient": "from-green-500 to-teal-500",
+      "images": [
+        "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop"
+      ],
+      "tech": [
+        "Python",
+        "Random Forest",
+        "Data Analysis",
+        "Pandas",
+        "Scikit-learn",
+        "Matplotlib"
+      ],
+      "features": [
+        "Automated Data Collection",
+        "Random Forest Classification",
+        "Weather Pattern Analysis",
+        "Data Visualization",
+        "Prediction Modeling",
+        "Report Generation"
+      ],
+      "stats": {
+        "users": "25+",
+        "uptime": "99.8%",
+        "performance": "96/100",
+        "satisfaction": "4.9/5"
+      },
+      "team": [
+        {
+          "name": "Dr. Indra Meteorologi",
+          "role": "Data Scientist",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face"
+        },
+        {
+          "name": "Rina Wulandari",
+          "role": "Python Developer",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=60&h=60&fit=crop&crop=face"
+        },
+        {
+          "name": "Agus Pratama",
+          "role": "System Analyst",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face"
+        }
+      ],
+      "timeline": [
+        {
+          "phase": "Requirement Analysis",
+          "duration": "2 weeks",
+          "status": "completed"
+        },
+        {
+          "phase": "Data Collection & Preparation",
+          "duration": "4 weeks",
+          "status": "completed"
+        },
+        {
+          "phase": "Algorithm Development",
+          "duration": "6 weeks",
+          "status": "completed"
+        },
+        {
+          "phase": "Testing & Validation",
+          "duration": "3 weeks",
+          "status": "completed"
+        },
+        {
+          "phase": "Production Deployment",
+          "duration": "2 weeks",
+          "status": "completed"
+        },
+        {
+          "phase": "Monitoring & Optimization",
+          "duration": "Ongoing",
+          "status": "active"
+        }
+      ],
+      "links": {
+        "live": "https://radiosonde.bmkg-tarakan.gov.id",
+        "github": "https://github.com/bmkg/radiosonde-analysis"
+      },
+      "launchDate": "2023-12-01",
+      "client": "BMKG Kota Tarakan"
+    },
+    {
+      "id": 6,
+      "title": "Kasir Sederhana Desktop App",
+      "subtitle": "Aplikasi Kasir Desktop dengan PyQt5",
+      "description": "Aplikasi desktop kasir sederhana ini dirancang menggunakan Python dengan fungsi CRUD dan PyQT5 untuk Design Antarmuka.",
+      "longDescription": "Aplikasi kasir desktop yang dikembangkan dengan Python dan PyQt5, menyediakan interface yang user-friendly untuk operasi kasir sehari-hari. Aplikasi ini dilengkapi dengan fitur CRUD lengkap untuk manajemen produk dan transaksi.",
+      "category": "Desktop App & Analysis Data",
+      "status": "Completed",
+      "gradient": "from-emerald-500 to-green-500",
+      "images": [
+        "https://images.unsplash.com/photo-1556741533-6e6a62bd8b49?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+      ],
+      "tech": [
+        "PyQt5",
+        "Python",
+        "MySQL",
+        "SQLite",
+        "GUI Development",
+        "Database Management"
+      ],
+      "features": [
+        "Product Management (CRUD)",
+        "Transaction Processing",
+        "Receipt Generation",
+        "Sales Reporting",
+        "Inventory Tracking",
+        "User-friendly Interface"
+      ],
+      "stats": {
+        "users": "50+",
+        "uptime": "N/A",
+        "performance": "90/100",
+        "satisfaction": "4.4/5"
+      },
+      "team": [
+        {
+          "name": "Yudi Hermawan",
+          "role": "Python Developer",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face"
+        },
+        {
+          "name": "Sinta Marlina",
+          "role": "UI/UX Designer",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=60&h=60&fit=crop&crop=face"
+        }
+      ],
+      "timeline": [
+        {
+          "phase": "Planning & Design",
+          "duration": "1 week",
+          "status": "completed"
+        },
+        {
+          "phase": "Development",
+          "duration": "4 weeks",
+          "status": "completed"
+        },
+        { "phase": "Testing", "duration": "1 week", "status": "completed" },
+        {
+          "phase": "Documentation",
+          "duration": "1 week",
+          "status": "completed"
+        }
+      ],
+      "links": {
+        "live": null,
+        "github": "https://github.com/example/kasir-sederhana"
+      },
+      "launchDate": "2023-06-15",
+      "client": "Local Businesses"
+    },
+    {
+      "id": 7,
+      "title": "E-Learning Desktop Platform",
+      "subtitle": "Platform Pembelajaran Offline Desktop",
+      "description": "Platform belajar offline berbasis desktop dengan fitur interaktif dan manajemen kelas.",
+      "longDescription": "Platform e-learning desktop yang memungkinkan pembelajaran offline dengan fitur interaktif lengkap. Dirancang untuk institusi pendidikan yang membutuhkan solusi pembelajaran digital tanpa ketergantungan internet.",
+      "category": "Desktop App & Analysis Data",
+      "status": "Development",
+      "gradient": "from-yellow-500 to-orange-500",
+      "images": [
+        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop"
+      ],
+      "tech": ["Electron", "SQLite", "React", "Node.js", "CSS3", "JavaScript"],
+      "features": [
+        "Offline Learning Modules",
+        "Interactive Quizzes",
+        "Progress Tracking",
+        "Class Management",
+        "Content Library",
+        "Student Analytics"
+      ],
+      "stats": {
+        "users": "Beta",
+        "uptime": "N/A",
+        "performance": "85/100",
+        "satisfaction": "4.1/5"
+      },
+      "team": [
+        {
+          "name": "Farah Nabila",
+          "role": "Full Stack Developer",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=60&h=60&fit=crop&crop=face"
+        },
+        {
+          "name": "Rizki Maulana",
+          "role": "Frontend Developer",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face"
+        },
+        {
+          "name": "Diana Sari",
+          "role": "Educational Content Specialist",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face"
+        }
+      ],
+      "timeline": [
+        {
+          "phase": "Planning & Research",
+          "duration": "2 weeks",
+          "status": "completed"
+        },
+        {
+          "phase": "Design & Prototyping",
+          "duration": "3 weeks",
+          "status": "completed"
+        },
+        { "phase": "Development", "duration": "12 weeks", "status": "active" },
+        { "phase": "Testing", "duration": "3 weeks", "status": "pending" },
+        { "phase": "Deployment", "duration": "2 weeks", "status": "pending" }
+      ],
+      "links": {
+        "live": null,
+        "github": "https://github.com/example/elearning-desktop"
+      },
+      "launchDate": "2024-03-15",
+      "client": "Educational Institutions"
+    },
+    {
+      "id": 8,
+      "title": "POS Desktop Application",
+      "subtitle": "Point of Sale dengan Inventory Management",
+      "description": "Aplikasi Point of Sale desktop dengan fitur inventory management dan reporting.",
+      "longDescription": "Aplikasi POS desktop yang komprehensif dengan fitur inventory management, sales reporting, dan customer management. Dirancang untuk retail dan restoran dengan kebutuhan operasional yang kompleks.",
+      "category": "Desktop App & Analysis Data",
+      "status": "Production",
+      "gradient": "from-indigo-500 to-blue-500",
+      "images": [
+        "https://images.unsplash.com/photo-1556741533-6e6a62bd8b49?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=600&fit=crop"
+      ],
+      "tech": ["Java", "MySQL", "JavaFX", "JasperReports", "Maven", "JDBC"],
+      "features": [
+        "Point of Sale System",
+        "Inventory Management",
+        "Sales Reporting",
+        "Customer Database",
+        "Multi-payment Support",
+        "Barcode Integration"
+      ],
+      "stats": {
+        "users": "200+",
+        "uptime": "99.5%",
+        "performance": "93/100",
+        "satisfaction": "4.6/5"
+      },
+      "team": [
+        {
+          "name": "Eko Prasetyo",
+          "role": "Java Developer",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face"
+        },
+        {
+          "name": "Lina Kusuma",
+          "role": "Database Administrator",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=60&h=60&fit=crop&crop=face"
+        },
+        {
+          "name": "Arif Budiman",
+          "role": "System Analyst",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face"
+        }
+      ],
+      "timeline": [
+        {
+          "phase": "Requirement Analysis",
+          "duration": "2 weeks",
+          "status": "completed"
+        },
+        {
+          "phase": "System Design",
+          "duration": "3 weeks",
+          "status": "completed"
+        },
+        {
+          "phase": "Development",
+          "duration": "10 weeks",
+          "status": "completed"
+        },
+        {
+          "phase": "Testing & QA",
+          "duration": "3 weeks",
+          "status": "completed"
+        },
+        {
+          "phase": "Production Deployment",
+          "duration": "1 week",
+          "status": "completed"
+        },
+        {
+          "phase": "Support & Maintenance",
+          "duration": "Ongoing",
+          "status": "active"
+        }
+      ],
+      "links": {
+        "live": null,
+        "github": "https://github.com/example/pos-desktop"
+      },
+      "launchDate": "2023-10-20",
+      "client": "Retail & Restaurant Chains"
+    }
+  ]
+}

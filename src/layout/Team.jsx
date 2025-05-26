@@ -13,6 +13,7 @@ export default function Team() {
           color: "from-yellow-400 to-yellow-600",
         },
         { nama: "Next JS", icon: "▲", color: "from-black to-gray-800" },
+        { nama: "Express JS", icon: "ex", color: "from-gray-500 to-gray-800" },
         { nama: "React Native", icon: "⚛", color: "from-blue-400 to-blue-600" },
         { nama: "Laravel", icon: "L", color: "from-red-500 to-red-700" },
         {
