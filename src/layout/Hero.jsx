@@ -1,8 +1,8 @@
 import Aos from "aos";
 import React from "react";
+import { TypeAnimation } from "react-type-animation";
 
 export default function Hero() {
-
   return (
     <section
       id="home"
@@ -46,7 +46,28 @@ export default function Hero() {
           data-aos="fade-up"
           className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-gray-300 to-white bg-clip-text text-transparent animate-pulse"
         >
-          Solusi Digital untuk Bisnis Anda
+          Solusi Digital untuk{" "}
+          <TypeAnimation
+            sequence={[
+              // Same substring at the start will only be typed out once, initially
+              "Bisnis",
+              1000, // wait 1s before replacing "Mice" with "Hamsters"
+              "Project",
+              1000,
+              "Tugas",
+              1000,
+            ]}
+            wrapper="span"
+            speed={50}
+            style={{
+              fontSize: "1em",
+              display: "inline-block",
+              fontStyle: "bold",
+              letterSpacing: "2px",
+            }}
+            repeat={Infinity}
+          />
+          Anda
         </h1>
         <p
           data-aos="fade-down"
