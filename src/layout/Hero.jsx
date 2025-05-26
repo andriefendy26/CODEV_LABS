@@ -1,6 +1,7 @@
 import Aos from "aos";
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
+import { Helmet } from "react-helmet";
 
 export default function Hero() {
   return (
@@ -8,6 +9,22 @@ export default function Hero() {
       id="home"
       className="min-h-screen flex flex-col justify-center items-center text-center px-4 relative overflow-hidden"
     >
+      <Helmet>
+        <title>CODEV LABS</title>
+        <meta property="og:site_name" content="codev-labs-s4xd.vercel.app" />
+        <meta property="og:title" content="Solusi Digital untuk TAnda" />
+        <meta
+          property="og:description"
+          content="Kami adalah pengembang Website, Aplikasi Android, IoT, dan Analis Data siap membantu Anda membangun solusi digital yang optimal."
+        />
+        <meta
+          property="og:image"
+          content="https://codev-labs-s4xd.vercel.app/assets/white_logo-BBUWN1vC.png"
+        />
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
+        <meta property="og:url" content="https://codev-labs-s4xd.vercel.app/" />
+      </Helmet>
       {/* Animated Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-gray-800">
         {/* Floating geometric shapes */}
