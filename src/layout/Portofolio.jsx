@@ -4,7 +4,7 @@ import C2UKALTARA from "../assets/portofolio/c2ukaltara.png";
 import CASHIERMATE from "../assets/portofolio/cashiermate.png";
 import KASIRSEDERHANA from "../assets/portofolio/kasirsederhana.png";
 import BMIFUZZY from "../assets/portofolio/bmifuzzy.png";
-import RDASSISTEM from "../assets/portofolio/rdas_system.png";
+import RDASSISTEM from "../assets/portofolio/rdas_system.png";  
 import "aos/dist/aos.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -135,12 +135,12 @@ export default function Portfolio() {
     },
     {
       id: 10,
-      title: "Smart Agriculture IoT System",
+      title: "Arduino Line Follower Robot",
       description:
-        "Sistem IoT untuk monitoring dan analisis data pertanian pintar dengan sensor terintegrasi.",
-      image: "/portfolio/smart-agriculture.jpg",
+        "Robot line follower Arduino ini menggunakan sensor pelacak garis 5 kanal TRCT5000L untuk mendeteksi jalur secara presisi. Layar OLED (0.96 inci) menampilkan mode robot — manual melalui remote IR atau otomatis mengikuti garis. Driver motor L298N mengatur kecepatan dan arah motor, sementara remote control IR memberikan fleksibilitas dalam pengendalian manual.",
+      image: "https://github.com/HanMade-Dev/Arduino-Line-Follower-Robot/blob/main/assets/preview1.gif?raw=true",
       category: "IoT",
-      tech: ["Arduino", "Python", "Machine Learning"],
+      tech: ["Arduino"],
       status: "Active",
       gradient: "from-green-400 to-blue-500",
     },
