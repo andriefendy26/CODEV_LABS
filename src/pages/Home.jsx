@@ -17,7 +17,7 @@ export default function Home() {
       <CTA></CTA>
       <Portfolio></Portfolio>
       <About></About>
-      <Team></Team>
+      {/* <Team></Team> */}
       <Footer></Footer>
     </div>
   )
