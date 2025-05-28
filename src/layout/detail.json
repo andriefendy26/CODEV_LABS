@@ -10,10 +10,7 @@
       "status": "Deployed",
       "gradient": "from-blue-500 to-cyan-500",
       "images": [
-        "/public/c2ukaltara/image0.png",
-        "/public/c2ukaltara/image1.png",
-        "/public/c2ukaltara/image.png",
-        "/public/c2ukaltara/image2.png"
+        "/c2ukaltara/image0.png"
       ],
       "tech": [
         "React",

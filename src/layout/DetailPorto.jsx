@@ -13,7 +13,7 @@ import {
   Play,
   Pause,
 } from "lucide-react";
-import Detail from "./detail.json";
+import Detail from "./detail";
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
