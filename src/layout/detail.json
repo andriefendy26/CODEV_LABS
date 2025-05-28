@@ -10,10 +10,10 @@
       "status": "Deployed",
       "gradient": "from-blue-500 to-cyan-500",
       "images": [
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop"
+        "/public/c2ukaltara/image0.png",
+        "/public/c2ukaltara/image1.png",
+        "/public/c2ukaltara/image.png",
+        "/public/c2ukaltara/image2.png"
       ],
       "tech": [
         "React",
@@ -32,7 +32,7 @@
         "Real-time Notifications"
       ],
       "stats": {
-        "users": "500+",
+        "users": "50+",
         "uptime": "99.9%",
         "performance": "95/100",
         "satisfaction": "4.8/5"
