@@ -85,9 +85,9 @@
       "gradient": "from-purple-500 to-pink-500",
       "images": [
         "https://portofolio-six-snowy.vercel.app/assets/Ecommerce-h95v5BwB.png",
-        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+        "/shoopepedia/image1.png",
+        "/shoopepedia/image2.png",
+        "/shoopepedia/image3.png"
       ],
       "tech": [
         "React",
@@ -113,14 +113,9 @@
       },
       "team": [
         {
-          "name": "Lisa Pratiwi",
-          "role": "Frontend Developer",
-          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=60&h=60&fit=crop&crop=face"
-        },
-        {
-          "name": "Andi Wijaya",
-          "role": "API Developer",
-          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face"
+          "name": "Andri Efendy",
+          "role": "Fullstack Developer",
+          "avatar": "https://avatars.githubusercontent.com/u/103976426?v=4"
         }
       ],
       "timeline": [
@@ -142,10 +137,10 @@
         { "phase": "Testing", "duration": "1 week", "status": "completed" }
       ],
       "links": {
-        "live": "https://ecommerce-prototype.demo",
-        "github": "https://github.com/example/ecommerce-prototype"
+        "live": "/",
+        "github": "https://github.com/andriefendy26"
       },
-      "launchDate": "2023-11-20",
+      "launchDate": "-",
       "client": "Internal Project"
     },
     {
@@ -158,14 +153,13 @@
       "status": "Active",
       "gradient": "from-orange-500 to-red-500",
       "images": [
-        "https://images.unsplash.com/photo-1556741533-6e6a62bd8b49?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+        "/cashiermate/image1.png",
+        "/cashiermate/image2.png",
+        "/cashiermate/image3.png"
       ],
       "tech": [
         "Laravel",
-        "React",
+        "React Native",
         "Cross Platform",
         "MySQL",
         "Android SDK",
@@ -180,26 +174,16 @@
         "Multi-user Support"
       ],
       "stats": {
-        "users": "150+",
+        "users": "-",
         "uptime": "98.5%",
         "performance": "92/100",
         "satisfaction": "4.6/5"
       },
       "team": [
-        {
-          "name": "Dedi Kurniawan",
-          "role": "Full Stack Developer",
-          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face"
-        },
-        {
-          "name": "Maya Sari",
-          "role": "Mobile Developer",
-          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=60&h=60&fit=crop&crop=face"
-        },
-        {
-          "name": "Roni Prakoso",
-          "role": "Backend Developer",
-          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face"
+     {
+          "name": "Andri Efendy",
+          "role": "Fullstack Developer",
+          "avatar": "https://avatars.githubusercontent.com/u/103976426?v=4"
         }
       ],
       "timeline": [
@@ -230,10 +214,10 @@
         }
       ],
       "links": {
-        "live": "https://cashiermate.app",
-        "github": "https://github.com/example/cashiermate"
+        "live": "/",
+        "github": "https://github.com/andriefendy26"
       },
-      "launchDate": "2023-09-10",
+      "launchDate": "-",
       "client": "UMKM Community"
     },
     {

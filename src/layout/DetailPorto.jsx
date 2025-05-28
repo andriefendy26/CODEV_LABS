@@ -27,7 +27,6 @@ const PortfolioDetail = () => {
 
   const project = Detail.project.find((item) => item.id === parseInt(id));
 
-
   useEffect(() => {
     if (isAutoPlay) {
       const interval = setInterval(() => {
@@ -52,10 +51,8 @@ const PortfolioDetail = () => {
   };
 
   const handleBack = () => {
-   
-
     console.log("Navigate back to portfolio");
-    navigate(`/`);
+    navigate(`/#portfolio`);
   };
 
   return (
