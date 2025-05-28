@@ -117,7 +117,7 @@ export default function Portfolio() {
       image: "/portfolio/pos-desktop.jpg",
       category: "Desktop App & Analysis Data",
       tech: ["Java", "MySQL", "JavaFX"],
-      status: "Production",
+      status: "Development",
       gradient: "from-indigo-500 to-blue-500",
     },
 
@@ -394,14 +394,14 @@ export default function Portfolio() {
                               ></div>
 
                               {/* Simple View Detail Button */}
-                              <div className="absolute inset-0 bg-black/60 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">
+                              {/* <div className="absolute inset-0 bg-black/60 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">
                                 <button className="px-6 py-3 bg-white text-gray-800 rounded-lg text-sm font-medium hover:bg-gray-50 transition-all duration-200 flex items-center space-x-2 shadow-lg transform translate-y-2 group-hover:translate-y-0">
                                   <Eye size={16} />
                                   <Link to={`/detail/${project.id}`}>
                                     <span>View Detail</span>
                                   </Link>
                                 </button>
-                              </div>
+                              </div> */}
                             </div>
 
                             {/* Content */}
@@ -442,7 +442,7 @@ export default function Portfolio() {
                                     </span>
                                     <span className="text-xs text-gray-500">
                                       {project.status === "Development"
-                                        ? "75%"
+                                        ? "50%"
                                         : "100%"}
                                     </span>
                                   </div>
@@ -452,7 +452,7 @@ export default function Portfolio() {
                                         project.gradient
                                       } h-1 rounded-full transition-all duration-500 ${
                                         project.status === "Development"
-                                          ? "w-3/4"
+                                          ? "w-2/4"
                                           : "w-full"
                                       }`}
                                     ></div>
